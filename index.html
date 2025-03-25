@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Text Banner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+            color: white; /* Text color for better contrast */
+            text-align: center; /* Centering text */
+        }
+        .marquee-container {
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 10px; /* Rounded corners */
+            overflow: hidden; /* Hides overflow */
+        }
+        marquee {
+            font-weight: bold;
+            font-size: 1.5em; /* Larger text */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Amazing Scrolling Text Banner!</h1>
+
+    <div class="marquee-container">
+        <!-- Horizontal Scrolling Marquee -->
+        <marquee behavior="scroll" direction="left" bgcolor="yellow" scrollamount="10" scrolldelay="50">
+            Enjoy our amazing scrolling text from right to left!
+        </marquee>
+    </div>
+
+    <div class="marquee-container">
+        <!-- Another Horizontal Scrolling Marquee -->
+        <marquee behavior="scroll" direction="left" bgcolor="orange" scrollamount="8" scrolldelay="70">
+            Don't miss our latest updates and offers!
+        </marquee>
+    </div>
+
+    <div class="marquee-container">
+        <!-- Vertical Scrolling Marquee -->
+        <marquee behavior="scroll" direction="up" bgcolor="lightblue" scrollamount="5" scrolldelay="100">
+            This is a vertical scrolling text from bottom to top!
+        </marquee>
+    </div>
+
+    <div class="marquee-container">
+        <!-- Another Vertical Scrolling Marquee -->
+        <marquee behavior="scroll" direction="up" bgcolor="lightgreen" scrollamount="6" scrolldelay="90">
+            Stay tuned for more exciting content!
+        </marquee>
+    </div>
+
+</body>
+</html>
